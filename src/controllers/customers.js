@@ -1,4 +1,4 @@
-class Customer {
+class CustomersController {
     get(req, res) {
         const defaultCustomer = [{
             name: 'Default customer',
@@ -9,4 +9,4 @@ class Customer {
     }
 };
 
-export default Customer;
+export default CustomersController;

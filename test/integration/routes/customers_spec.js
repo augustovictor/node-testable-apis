@@ -5,7 +5,7 @@ describe('Routes: Customers', () => {
     }];
 
     describe('GET /customers', () => {
-        it('should return a list of products', done => {
+        it('should return a list of customers', function done() {
             request
             .get('/customers')
             .end((err, res) => {
