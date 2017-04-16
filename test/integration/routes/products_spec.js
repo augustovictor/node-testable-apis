@@ -6,7 +6,7 @@ describe('Routes: Products', () => {
     }];
 
     describe('GET /products', () => {
-        it('should return a list of products', done => {
+        it('should return a list of products', function done() {
             request
             .get('/products')
             .end((err, res) => {
